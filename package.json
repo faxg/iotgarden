@@ -1,0 +1,23 @@
+{
+  "name": "iotgarden",
+  "version": "0.0.0",
+  "description": "IoT Garden",
+  "main": "index.js",
+  "dependencies": {
+    "node-dweetio": "0.0.11",
+    "promise": "^7.1.1",
+    "pubnub": "^3.14.5",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node simulator.js"
+  },
+  "repository": "",
+  "keywords": [
+    "Tessel",
+    "iot"
+  ],
+  "license": "MIT",
+  "readme": "A simple IoT controlled gardening project"
+}
